@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    background-color: rgb(43, 41, 41);
+}
+
+.head-1 {
+    color: rgb(190, 185, 176);
+    background-color: rgb(78, 76, 76);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;            
+}
+
+.head-2 {
+    padding-left: 80px;
+    padding-top: 20px;
+    flex-direction: column; 
+    line-height: normal;
+    flex-wrap: wrap;             
+} 
+
+.navbar-1 {
+    background-color: #333;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.li-1 {
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.navbar-2 {
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 4%;
+    padding: 10px;  
+    padding-left: 100px; 
+    flex-wrap: wrap; 
+}
+
+.image-2 {
+    border-radius: 50px;          
+}
+
+.link-1 {
+    padding-left: 300px;
+    padding-top: 23px;
+}
+
+.link-2 {
+    margin: 2px;
+}
+
+.link-3 {
+    padding-top: 15px;
+}
+
+.searchbar-1 {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc;          
+}
+
+.email-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc; 
+}
+
+.submitbu-1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+}
+
+.submitbu-1:hover {
+    background-color: #3e8e41;
+}
+
+.about-1 {
+    display: flex;
+    padding-left: 70px;
+    flex-wrap: wrap;
+}
+
+.about-2 {
+    color: white;
+    font-size: larger;
+    padding-right: 1000px;
+    margin-bottom: 0;
+
+}
+
+.about-3 {
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    width: 45px;
+}
+
+.plant-4 {
+    color: red;
+    }
+
+.con-1 {
+    display: flex;
+    padding-left: 70px;
+    flex-wrap: wrap;
+}
+
+.con-2 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.con-3 {
+    color: white;
+    font-family: sans-serif;
+    width: 190px;
+}
+
+.con-4 {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 150px;
+    background-color: #161616;
+}
+
+.con-5 {
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+
+.of-1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.of-2 {
+    color: white;
+    text-decoration: none;
+}
+
+.of-3 {
+    color: white;
+    width: 180px;
+}
+
+.of-4 {
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.of-5 {
+    display: flex;
+    padding: 5px;
+}
+
+.of-6 {
+    padding-right: 10px;
+}
+
+
+
+
+.form-1 {
+    display: flex;
+}
+
+.form-2 {
+    padding-left: 100px;
+}
+
+.form-3 {
+    width: ;
+}
+
+.form-4 {
+    width: 390px;
+    padding: 15px;
+    background-color: #333;
+    border: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-5 {
+    background-color: #333;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 845px;
+    height: 150px;
+    border: none;
+}
+
+.form-6 {
+    background-color: red;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-6:hover {
+    background-color: white;
+    color: rgb(245, 9, 9);
+}
+
+.planet-1 {
+    background-color: #333;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 15px;   
+}
+
+.plant-2 {
+    width: 350px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.plant-3 {
+    font-family: sans-serif;
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.plant-4 {
+    color: red;
+}
+
+.plant-5 {
+    margin: 5px;
+    width:  20%;  
+}
+
+.plant-6 {
+    padding-top: 20px;
+}
+
+.plant-7 {
+    
+    vertical-align: auto;  
+}
+
+.plant-8 {
+    width: auto;  
+}
+
+.design-1 {
+    color: white;
+  
+
+}
+
+.design-2 {
+    display: flex;
+    padding-left: 130px;
+    
+}
+
+.li-2 {
+    color: white;
+    text-decoration: none;
+    margin: 5px;    
+}
+
+.li-3 {
+    padding-left: 290px;
+    padding-top: 20px;
+}

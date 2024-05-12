@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.head-1 {
+    color: rgb(190, 185, 176);
+    background-color: rgb(78, 76, 76);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.head-2 {
+    padding-left: 100px;
+    padding-top: 20px;
+    flex-direction: column; 
+    line-height: normal;
+    flex-wrap: wrap;       
+} 
+
+.image-1 {
+    width: 4%;
+    padding: 10px;  
+    padding-left: 100px;  
+}
+
+.image-2 {
+    border-radius: 50px;
+    flex-wrap: wrap;   
+}
+
+.searchbar-1 {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc;  
+}
+
+
+.submitbu-1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+
+}
+
+.submitbu-1:hover {
+    background-color: #3e8e41;
+}
+
+.link-1 {
+    padding-left: 300px;
+    padding-top: 23px;
+    
+}
+
+.li-2 {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+    
+.link-3 {
+    padding-top: 15px;
+}
+
+.li-1 {
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.navbar-1 {
+    background-color: #333;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;         
+ } 
+        
+.navbar-2 {
+    margin-left: 100px;
+    flex-wrap: wrap;
+}  
+        
+.backcol-1 {
+    background-color: rgb(31, 30, 30);
+    padding-left: 110px;
+    padding-top: 35px; 
+}
+
+.backcol-2 {
+    display: flex;
+}
+
+.backcol-3 {
+    width: 4%;
+    margin: 15px; 
+}
+
+.backcol-4 {
+    color: #ccc;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.para-2 {
+    color: red;
+}
+
+.para-3 {
+    padding-top: 0;
+    color: red;
+    font-size: 20px;
+}
+
+.vid-1 {
+    background-color: rgb(77, 76, 75);
+    width: 360px;
+    height: 350px;
+    margin: 10px;
+}
+
+.vid-2 {
+    background-color: #333;
+}
+
+.vid-3 {
+    font-size: 100px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.vid-4 {
+    float: right;
+    font-size: 100px;
+}
+
+.vid-5 {
+    padding-left: 50px;
+}
+
+.vid-6 {
+    display: flex;
+}
+
+.actionlink-1 {
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+} 
+
+.actionlink-2 {
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+.imagetext-1 {
+    color: white;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+.word-1 {
+    background-color: #333;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 209px;
+    margin: 14px;
+    height: 400px;
+}
+
+.word-2 {
+    background-color: rgb(31, 30, 30);
+    padding-left: 105px;
+    padding-top: 35px;
+}
+
+.word-3 {
+    color: wheat;
+    font-size: 20px;
+}
+
+.word-4 {
+    display: flex;
+
+}
+
+.word-5 {
+    padding-left: 20px;
+}
+
+.planet-1 {
+    background-color: #333;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 15px;   
+}
+
+.plant-2 {
+    width: 350px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.plant-3 {
+    font-family: sans-serif;
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.plant-4 {
+    color: red;
+}
+
+.plant-5 {
+    margin: 5px;
+    width:  20%;  
+}
+
+.plant-6 {
+    padding-top: 20px;
+}
+
+.plant-7 {
+    vertical-align: auto;  
+}
+
+.plant-8 {
+    width: auto;  
+}
+
+
+.design-1 {
+    color: white;
+}
+
+.design-2 {
+    display: flex;
+    padding-left: 130px;
+}
+
+.li-2 {
+    color: white;
+    text-decoration: none;
+    margin: 5px;    
+}
+
+.li-3 {
+    padding-left: 290px;
+    padding-top: 20px;
+}
+
+.link-1 {
+    padding-left: 300px;
+    padding-top: 23px;
+}
+
+.link-2 {
+    margin: 2px;
+}
+
+.link-3 {
+    padding-top: 15px;
+}
+
+.email-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc; 
+}
+
+.about-1 {
+    display: flex;
+    padding-left: 130px;
+}
+
+.about-2 {
+    color: white;
+    font-size: larger;
+    padding-right: 950px;
+    margin-bottom: 0;
+
+}
+
+.about-3 {
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    width: 45px;
+}
+

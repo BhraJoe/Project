@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.head-1 {
+    color: rgb(190, 185, 176);
+    background-color: rgb(78, 76, 76);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;            
+}
+
+.head-2 {
+    padding-left: 80px;
+    padding-top: 20px;
+    flex-direction: column; 
+    line-height: normal;
+    flex-wrap: wrap;             
+} 
+
+.navbar-1 {
+    background-color: #333;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.li-1 {
+    margin: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.navbar-2 {
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 4%;
+    padding: 10px;  
+    padding-left: 100px; 
+    flex-wrap: wrap; 
+}
+
+.image-2 {
+    border-radius: 50px;          
+}
+
+.link-1 {
+    padding-left: 300px;
+    padding-top: 23px;
+}
+
+.link-2 {
+    margin: 2px;
+}
+
+.link-3 {
+    padding-top: 15px;
+}
+
+.searchbar-1 {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc;          
+}
+
+.email-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc; 
+}
+
+.submitbu-1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+}
+
+.submitbu-1:hover {
+    background-color: #3e8e41;
+}
+
+.about-1 {
+    display: flex;
+    padding-left: 130px;
+}
+
+.about-2 {
+    color: white;
+    font-size: larger;
+    padding-right: 950px;
+    margin-bottom: 0;
+
+}
+
+.about-3 {
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    width: 45px;
+}
+
+.backcol-1 {
+    background-color: black;
+    padding-left: 110px;
+    padding-top: 35px;   
+}
+
+.backcol-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.backcol-3 {
+    width: 4%;
+    margin: 15px;   
+}
+
+.backcol-4 {
+    color: #ccc;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.choice-1 {
+    margin: 15px;     
+}
+    
+.choice-2 {           
+    width: 100%;
+    height: 100%;
+}
+    
+.choice-3 {
+    display: flex; 
+}
+    
+.choice-4 {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 15px;   
+}
+    
+.choice-5 {
+    color: white;
+    font-family: sans-serif;  
+}
+    
+.choice-6 {
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    padding-top: 200px;
+}
+    
+.choice-5 {
+    margin: 0;
+}
+    
+.meet-1 {
+    color: white;
+    width: 280px;
+}
+    
+.meet-2 {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.planet-1 {
+    background-color: #333;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 15px;   
+}
+        
+.plant-2 {
+    width: 350px;
+    color: white;
+    font-family: sans-serif;    
+}
+        
+.plant-3 {
+    font-family: sans-serif;
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+}
+        
+.plant-4 {
+    color: red;
+}
+        
+.plant-5 {
+    margin: 5px;
+    width:  20%;  
+}
+        
+.plant-6 {
+    padding-top: 20px;
+}
+        
+.plant-7 {
+    vertical-align: auto;  
+}
+        
+.plant-8 {
+    width: auto;  
+}
+        
+.design-1 {
+    color: white;
+}
+        
+.design-2 {
+    display: flex;
+    padding-left: 130px;
+}
+
+.li-1 {
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+            
+.li-2 {
+    color: white;
+    margin: 5px;
+    text-decoration: none; 
+}
+
+.li-3 {
+    padding-left: 390px;
+    padding-top: 20px;
+}
+                
+.link-1 {
+    padding-left: 300px;
+    padding-top: 23px;
+}
+
+.link-2 {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+                
+.link-3 {
+    padding-top: 15px;
+}
+          
