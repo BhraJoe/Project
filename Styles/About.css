@@ -9,7 +9,8 @@ body {
     background-color: rgb(78, 76, 76);
     height: auto;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+      
 }
 
 .head-2 {
