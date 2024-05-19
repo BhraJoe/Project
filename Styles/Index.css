@@ -115,7 +115,7 @@ body {
     color: white;
     font-weight: lighter;
     font-size: 25px;
-    padding-left: 150px;
+    padding-left: 120px;
     padding-top: 150px;
     font-family: sans-serif;   
 }
@@ -183,7 +183,6 @@ body {
 
 .backcol-2 {
 display: flex;
-flex-wrap: wrap;
 }
 
 .backcol-3 {
@@ -200,20 +199,25 @@ flex-wrap: wrap;
 .backcol-5 {
    text-decoration: none;
    color: white; 
+   
 }
 
 .backcol-6 {
     border: none;
     background-color: red;
-    padding-left: 15px;
-    padding-right: 15px;
-    flex-wrap: wrap;
+    width: 100px;
 }
 
    
 .backcol-7 {
-    padding-left: 890px;
-    padding-top: 5px;
+    width: 100%;
+    display: flex;
+   
+}
+
+.backcol-8 {
+    padding-right: 75px;
+    padding-top: 12px;
 }
 
 .imagetext-1 {
