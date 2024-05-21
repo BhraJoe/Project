@@ -99,6 +99,7 @@ body {
     background-color: rgb(31, 30, 30);
     padding-left: 110px;
     padding-top: 35px; 
+    flex-wrap: wrap;
 }
 
 .backcol-2 {
@@ -154,6 +155,7 @@ body {
 
 .vid-6 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .actionlink-1 {
@@ -199,6 +201,7 @@ body {
 
 .word-4 {
     display: flex;
+    flex-wrap: wrap;
 
 }
 

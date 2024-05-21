@@ -170,8 +170,7 @@ body {
 }
 
 .backcol-2 {
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
 }
 
 .backcol-3 {
@@ -183,24 +182,31 @@ body {
     color: #ccc;
     font-family: sans-serif;
     padding-top: 10px;
+    width: 50%;
 }
 
-.director-1 {
-    color: white;
-    font-family: sans-serif;
-    text-decoration: none;
+.backcol-5 {
+   text-decoration: none;
+   color: white; 
+   
 }
 
-.director-2 {
-    background-color: red;
+.backcol-6 {
     border: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: red;
+    width: 80px;
 }
 
-.director-3 {
-    padding-left: 800px;
-    padding-top: 5px;
+   
+.backcol-7 {
+    width: 100%;
+    display: flex;
+   
+}
+
+.backcol-8 {
+    padding-right: 75px;
+    padding-top: 12px;
 }
 
 
