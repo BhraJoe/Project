@@ -16,21 +16,30 @@ body {
 } 
 
 .navbar-1 {
-    background-color: #333;
-    height: auto;
-    color: #fff;
-    padding: 20px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
     position: sticky;
     top: 0px;
     z-index: 1;
+    padding-left: 122px;
+    gap: 25px;
 }
 
+.navbar-2 {
+    color: red;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
 
 .li-1 {
-    margin: 15px;
-    padding: 5px;
     color: white;
     font-weight: bolder;
     font-size: 17px;
@@ -38,13 +47,13 @@ body {
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
-.navbar-2 {
-    margin-left: 100px;
-    flex-wrap: wrap;
-    
+.li-1:hover {
+    color: red;
 }
+
 
 .image-1 {
     display: flex;
@@ -104,7 +113,6 @@ body {
 }
 
 .backimage-1 {
-    position: relative;
     width: 100%;  
     background-color: black;
 }
@@ -144,7 +152,11 @@ body {
     text-decoration: none;
     color: white;
     flex-wrap: wrap;
-} 
+}
+
+.actionlink-1:hover{
+    color: red;
+}
 
 .actionlink-2 {
     background-color: red;
@@ -153,6 +165,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     border: none;
+}
+
+.actionlink-2:hover{
+    background-color: white;
 }
 .bacttext-1 {
     margin-bottom: 50px;   
@@ -202,10 +218,18 @@ display: flex;
    
 }
 
+.backcol-5:hover {
+    color: red;
+}
+
 .backcol-6 {
     border: none;
     background-color: red;
     width: 80px;
+}
+
+.backcol-6:hover {
+    background-color: white;
 }
 
    
@@ -393,15 +417,23 @@ display: flex;
 }
 
 
-.Coming-1 {
+.coming-1 {
     text-decoration: none;
     color: white; 
+}
+
+.coming-1:hover {
+    color: red;
 }
 
 .coming-2 {
     border: none;
     background-color: red;
     width: 80px;
+}
+
+.coming-2:hover {
+    background-color: white;
 }
 
 .coming-3 {
