@@ -191,7 +191,7 @@ body {
     
 .meet-1 {
     color: white;
-    width: 280px;
+    font-family: sans-serif;
 }
     
 .meet-2 {
@@ -203,43 +203,50 @@ body {
 .planet-1 {
     background-color: #333;
     display: flex;
+    flex-wrap: wrap;
     padding-left: 130px;
-    padding-top: 15px;   
+    padding-top: 15px; 
+      
 }
-        
-.plant-2 {
-    width: 350px;
+
+.plant-2 { 
     color: white;
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    
 }
-        
+
 .plant-3 {
     font-family: sans-serif;
     color: red;
     font-size: larger;
     text-decoration: none;
 }
-        
+
 .plant-4 {
     color: red;
 }
-        
+
 .plant-5 {
-    margin: 5px;
-    width:  20%;  
-}
-        
-.plant-6 {
-    padding-top: 20px;
-}
-        
-.plant-7 {
-    vertical-align: auto;  
-}
-        
-.plant-8 {
-    width: auto;  
-}
+    width: 90px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+ }
+ 
+ .plant-6 {
+     padding-top: 20px;
+     margin-right: 70px;
+ }
+ 
+ .plant-7 {
+     vertical-align: auto; 
+     
+ }
+ 
+ .plant-8 {
+     width: auto; 
+     margin-right: 60px;
+      
+ }
         
 .design-1 {
     color: white;

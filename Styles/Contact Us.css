@@ -127,10 +127,6 @@ body {
     width: 45px;
 }
 
-.plant-4 {
-    color: red;
-    }
-
 .con-1 {
     display: flex;
     padding-left: 70px;
@@ -145,13 +141,13 @@ body {
 .con-3 {
     color: white;
     font-family: sans-serif;
-    width: 190px;
 }
 
 .con-4 {
     display: flex;
     padding-left: 50px;
     padding-top: 30px;
+    padding-right: 45px;
     height: 150px;
     background-color: #161616;
 }
@@ -166,6 +162,7 @@ body {
     color: white;
     font-family: sans-serif;
     font-size: large;
+    
 }
 
 .of-2 {
@@ -175,7 +172,7 @@ body {
 
 .of-3 {
     color: white;
-    width: 180px;
+   
 }
 
 .of-4 {
@@ -192,22 +189,30 @@ body {
     padding-right: 10px;
 }
 
+.of-7 {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 73px;
+}
+
 
 
 
 .form-1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .form-2 {
-    padding-left: 100px;
+    margin-right: 40px;
 }
 
 
 .form-4 {
     width: 390px;
     padding: 15px;
-    background-color: #333;
+    background-color: #161616;
     border: 3px;
     margin-top: 10px;
     margin-right: 10px;
@@ -215,7 +220,7 @@ body {
 }
 
 .form-5 {
-    background-color: #333;
+    background-color: #161616;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -246,12 +251,13 @@ body {
 .planet-1 {
     background-color: #333;
     display: flex;
-    padding-left: 70px;
-    padding-top: 15px;   
+    flex-wrap: wrap;
+    padding-left: 73px;
+    padding-top: 15px; 
+      
 }
 
-.plant-2 {
-    width: 350px;
+.plant-2 { 
     color: white;
     font-family: sans-serif;
     
@@ -269,21 +275,25 @@ body {
 }
 
 .plant-5 {
-    margin: 5px;
-    width:  20%;  
+   width: 90px;
+   margin-right: 5px;
+   margin-bottom: 5px;
 }
 
 .plant-6 {
     padding-top: 20px;
+    margin-right: 70px;
 }
 
 .plant-7 {
+    vertical-align: auto; 
     
-    vertical-align: auto;  
 }
 
 .plant-8 {
-    width: auto;  
+    width: auto; 
+    margin-right: 60px;
+     
 }
 
 .design-1 {
