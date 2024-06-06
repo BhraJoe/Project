@@ -106,23 +106,6 @@ body {
     background-color: #3e8e41;
 }
 
-.about-1 {
-    display: flex;
-    padding-left: 130px;
-}
-
-.about-2 {
-    color: #ccc;
-    font-family: sans-serif;
-    padding-top: 10px;
-
-}
-
-.about-3 {
-    text-decoration: none;
-    color: white;
-    
-}
 
 .about-4 {
     padding-top: 10px;
@@ -147,9 +130,10 @@ body {
 }
 
 .backcol-4 {
-    color: #ccc;
+    color: white;
+    font-size: larger;
     font-family: sans-serif;
-    padding-top: 10px;
+    color: red;
 }
 
 .choice-1 {
@@ -248,25 +232,23 @@ body {
       
  }
         
-.design-1 {
+ .design-1 {
     color: white;
+    padding-right: 150px;
+    font-family: sans-serif;
 }
-        
+
 .design-2 {
     display: flex;
-    padding-left: 130px;
+    flex-wrap: wrap;
+    padding-left: 130px;  
+    align-items: center;
 }
 
-            
 .li-2 {
     color: white;
-    margin: 5px;
-    text-decoration: none; 
-}
-
-.li-3 {
-    padding-left: 390px;
-    padding-top: 20px;
+    text-decoration: none;
+    margin: 5px;    
 }
                 
 .link-1 {
@@ -282,5 +264,12 @@ body {
                 
 .link-3 {
     padding-top: 15px;
+}
+
+.yes-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 120px;
 }
           

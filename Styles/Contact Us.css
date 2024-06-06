@@ -106,26 +106,6 @@ body {
     background-color: #3e8e41;
 }
 
-.about-1 {
-    display: flex;
-    padding-left: 70px;
-    flex-wrap: wrap;
-}
-
-.about-2 {
-    color: white;
-    font-size: larger;
-    padding-right: 1000px;
-    margin-bottom: 0;
-
-}
-
-.about-3 {
-    color: white;
-    text-decoration: none;
-    padding-top: 3px;
-    width: 45px;
-}
 
 .con-1 {
     display: flex;
@@ -154,8 +134,11 @@ body {
 
 .con-5 {
     padding-top: 20px;
-    padding-right: 20px;
-    
+    padding-right: 20px;   
+}
+
+.con-6 {
+    width: 300px;
 }
 
 .of-1 {
@@ -298,14 +281,15 @@ body {
 
 .design-1 {
     color: white;
-  
-
+    padding-right: 150px;
+    font-family: sans-serif;
 }
 
 .design-2 {
     display: flex;
-    padding-left: 130px;
-    
+    flex-wrap: wrap;
+    padding-left: 130px;  
+    align-items: center;
 }
 
 .li-2 {
@@ -314,7 +298,16 @@ body {
     margin: 5px;    
 }
 
-.li-3 {
-    padding-left: 290px;
-    padding-top: 20px;
+.backcol-4 {
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    color: red;
+}
+
+.yes-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 70px;
 }

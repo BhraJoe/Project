@@ -12,19 +12,17 @@ body {
 }
 
 .head-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     color: rgb(190, 185, 176);
     background-color: rgb(78, 76, 76);
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;            
+    align-items: center;
 }
 
 .head-2 {
-    padding-left: 80px;
-    padding-top: 20px;
-    flex-direction: column; 
-    line-height: normal;
-    flex-wrap: wrap;             
+    padding-left: 100px;             
+flex-wrap: wrap;             
 } 
 
 .navbar-1 {
@@ -55,10 +53,8 @@ body {
 }
 
 .image-1 {
-    width: 4%;
-    padding: 10px;  
-    padding-left: 100px; 
-    flex-wrap: wrap; 
+    display: flex;
+    align-items: center; 
 }
 
 .image-2 {
@@ -165,14 +161,7 @@ body {
     padding-left: 130px;   
 }
 
-.link-1 {
-    padding-left: 300px;
-    padding-top: 23px;
-}
 
-.link-2 {
-    margin: 2px;
-}
 
 .link-3 {
     padding-top: 15px;
@@ -218,23 +207,27 @@ body {
     <div class="head-1">
 
         <div class="image-1" >
-            <img class="image-2" src="Pictures/50.jpg" alt="" width="100%">
+            
+            <div class="image-2">
+                <a href=""><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/camcorder-pro.png" alt="camcorder-pro"/></a>       
+              </div>
 
+                 <h1> MOVIES</h1>
         </div>
         
-        <h1>MOVIES</h1>
+        
 
         <div class="head-2">
         <input class="searchbar-1" type="search" name="Search" id="" placeholder="Search Site...">
         <button class="submitbu-1" type="submit">Search</button>
         </div>
 
-        <div class="link-1">
-            <a href=""><img class="link-2" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="instagram-new"/></a>
-            <a href=""><img class="link-2" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" alt="facebook-new"/></a>
-            <a href=""><img class="link-2" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitter--v1.png" alt="twitter--v1"/></a>
-            <a href=""><img class="link-2" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/youtube-squared.png" alt="youtube-squared"/></a>
-            <a href=""><img class="link-2" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/linkedin.png" alt="linkedin"/></a>    
+        <div>
+            <a href=""><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="instagram-new"/></a>
+            <a href=""><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" alt="facebook-new"/></a>
+            <a href=""><img  width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitter--v1.png" alt="twitter--v1"/></a>
+            <a href=""><img  width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/youtube-squared.png" alt="youtube-squared"/></a>
+            <a href=""><img  width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/linkedin.png" alt="linkedin"/></a>    
         </div>
     </div>
 
@@ -338,7 +331,7 @@ body {
          © All Rights Reserved | Design by JOE
     </p>
 
-    <div class="li-3">
+    <div>
         <a class="li-2" href="Index.html">Home</a>
         <a class="li-2" href=""> Features</a>
         <a class="li-2" href="">Pages</a>

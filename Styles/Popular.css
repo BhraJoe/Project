@@ -500,11 +500,15 @@ display: flex;
 
 .design-1 {
     color: white;
+    padding-right: 150px;
+    font-family: sans-serif;
 }
 
 .design-2 {
     display: flex;
-    padding-left: 130px;   
+    flex-wrap: wrap;
+    padding-left: 130px;  
+    align-items: center;
 }
 
 .li-2 {
@@ -512,13 +516,6 @@ display: flex;
     text-decoration: none;
     margin: 5px;    
 }
-
-
-.li-3 {
-    padding-left: 290px;
-    padding-top: 20px;
-}
-
 .link-1 {
     padding-left: 300px;
     padding-top: 23px;
