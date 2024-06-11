@@ -69,13 +69,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-color: #333;
-    height: 80px;
-    flex-wrap: wrap;
+    height: 70px;
     position: sticky;
     top: 0px;
     z-index: 1;
     padding-left: 122px;
-    gap: 25px;
+    gap: 15px;
 }
 
 .navbar-2 {
@@ -143,6 +142,7 @@ body {
     margin: 10px;
 }
 
+
 .vid-2 {
     background-color: #333;
 }
@@ -171,6 +171,8 @@ body {
     text-decoration: none;
     color: white;
     flex-wrap: wrap;
+    font-family: sans-serif;
+    font-weight: bolder;
 } 
 
 .actionlink-2 {
@@ -182,6 +184,27 @@ body {
     border: none;
 }
 
+.actionlink-3 {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+.actionlink-2:hover {
+    background-color: white;
+}
+
+.actionlink-3:hover {
+    background-color: white;
+}
+
+.actionlink-1:hover {
+    color: red;
+}
+
 .imagetext-1 {
     color: white;
     font-family: sans-serif;
@@ -189,6 +212,15 @@ body {
 
 .word-1 {
     background-color: #333;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 209px;
+    margin: 14px;
+    height: 400px;
+}
+
+.word-6 {
+    background-color: red;
     padding-left: 50px;
     padding-top: 20px;
     width: 209px;
@@ -236,6 +268,7 @@ body {
     font-family: sans-serif;
     color: red;
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -244,10 +277,15 @@ body {
 }
 
 .plant-5 {
-   width: 90px;
-   margin-right: 5px;
-   margin-bottom: 5px;
-}
+    width: 90px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+ }
+ 
+ .plant-5:hover {
+     transform: scale(1.1);
+ }
 
 .plant-6 {
     padding-top: 20px;
@@ -302,6 +340,7 @@ body {
     color: white;
     background-color: rgb(8, 0, 0); 
     border: 1px solid #ccc; 
+    width: 250px;
 }
 
 .about-1 {

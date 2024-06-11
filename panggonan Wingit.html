@@ -7,7 +7,7 @@
     <style>
 
 body {
-    background-color: black;
+    background-color: #333;
     margin: 0;            
 }
 
@@ -22,22 +22,24 @@ body {
 
 .head-2 {
     padding-left: 100px;             
-flex-wrap: wrap;             
+    flex-wrap: wrap;             
 } 
 
 .navbar-1 {
-    background-color: #333;
-    height: auto;
-    color: #fff;
-    padding: 20px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding-left: 122px;
+    gap: 15px;
 }
 
 
 .li-1 {
-    margin: 15px;
-    padding: 5px;
     color: white;
     font-weight: bolder;
     font-size: 17px;
@@ -45,10 +47,6 @@ flex-wrap: wrap;
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
-}
-
-.navbar-2 {
-    margin-left: 100px;
     flex-wrap: wrap;
 }
 
@@ -116,8 +114,16 @@ flex-wrap: wrap;
     padding-top: 15px;   
 }
 
-.plant-2 {
-    width: 350px;
+.planet-1 {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+    padding-top: 15px; 
+      
+}
+
+.plant-2 { 
     color: white;
     font-family: sans-serif;
     
@@ -127,6 +133,7 @@ flex-wrap: wrap;
     font-family: sans-serif;
     color: red;
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -135,42 +142,55 @@ flex-wrap: wrap;
 }
 
 .plant-5 {
-    margin: 5px;
-    width:  20%;  
+   width: 90px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   transition: 0.3s;
+}
+
+.plant-5:hover {
+    transform: scale(1.1);
 }
 
 .plant-6 {
     padding-top: 20px;
+    margin-right: 70px;
 }
 
 .plant-7 {
+    vertical-align: auto; 
     
-    vertical-align: auto;  
 }
 
 .plant-8 {
-    width: auto;  
+    width: auto; 
+    margin-right: 60px;
+     
 }
 
 .design-1 {
     color: white;
+    padding-right: 150px;
+    font-family: sans-serif;
 }
 
 .design-2 {
     display: flex;
-    padding-left: 130px;   
-}
-
-
-
-.link-3 {
-    padding-top: 15px;
+    flex-wrap: wrap;
+    padding-left: 130px;  
+    align-items: center;
 }
 
 .li-2 {
     color: white;
     text-decoration: none;
     margin: 5px;    
+}
+
+
+
+.link-3 {
+    padding-top: 15px;
 }
 
 
@@ -187,18 +207,51 @@ flex-wrap: wrap;
 }
 
 .thr-2 {
-    padding-left: 150px;
+    padding-left: 15px;
     padding-top: 20px;
     background-color: rgb(36, 36, 36);
     margin-left: 80px;
     margin-right: 80px;
-
 }
 
 .thr-3 {
     color: white;
     font-family: sans-serif;
-    width: 50%;
+    
+}
+
+.about-1 {
+    display: flex;
+    padding-left: 120px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.about-2 {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 0px;
+    text-decoration: none;
+}
+.about-3 {
+    border: 1px none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.about-3:hover {
+    background-color: white;
+}
+
+.about-2:hover {
+    color: red;
 }
     </style>
 </head>
@@ -233,57 +286,54 @@ flex-wrap: wrap;
 
 
     <nav class="navbar-1">
-
-        <div class="navbar-2">
         <a class="li-1" href="Index.html">Home</a>
         <a class="li-1" href="About Us.html">About Us</a>
         <a class="li-1" href="Services.html">Services</a>
         <a class="li-1" href="Team.html">Team</a>
         <a class="li-1" href="Contact Us.html">Contact Us</a>
-        </div> 
     </nav>
+
+    <div class="about-1">
+        <button class="about-3">
+           <a class="about-2" href="Latest.html">Back</a>   
+        </button>
+       
+    </div>
+    
+   <div style="display: flex ; justify-content:center">
     <section class="thr-2">
-        <h1 class="thr-1"> The Equalizer- Official Trailer (HD)</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VjctHUEmutw?si=gbDlCLw4fAsX519L" 
+        <h1 class="thr-1"> PANGGONAN WINGIT (Official Trailer)</h1>
+        <iframe width="460" height="315" 
+        src="https://www.youtube.com/embed/-sm6TqfB70Q?si=Cs1EGwOD05Imxtxf" 
         title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin"
+         allowfullscreen></iframe>
           
    <h4 class="thr-1">
-        Release Date: 26 September 2014 (United States)
+        Release Date: 30 November 2023 
    </h4>
         
     <p class="thr-3">
-        In The Equalizer, Denzel Washington plays McCall,
-        a man who believes he has put his mysterious past behind him and
-        dedicated himself to beginning a new, quiet life. But when McCall meets Teri
-        (Chloë Grace Moretz), a young girl under the control of ultra-violent Russian gangsters, 
-        he can't stand idly by -- he has to help her. Armed with hidden skills that allow him to 
-        serve vengeance against anyone who would brutalize the helpless, McCall comes out of his self-imposed
-        retirement and finds his desire for justice reawakened. If someone has a problem, 
-        if the odds are stacked against them, if they have nowhere else to turn, McCall will help.
-        He is The Equalizer.
-    </p>
-
-    <p class="thr-3">
-        Genre: Crime / Action / Thriller
-        Cast: Denzel Washington, Marton Csokas, Chloë Grace Moretz, David Harbour
-        Director: Antoine Fuqua
-        Writer: Richard Wenk 
+        Siapapun yang membuka pintu dari kamar tak bernomor 
+        yang <br> berada di lantai tiga kemudian bertemu dan melihat 
+        sosok <br> wanita berkulit putih dan berambut putih, hidupnya 
+        tidak akan <br> selamat lagi.
     </p>
        
 </section>
+   </div>
 
       
 <div class="planet-1">
     <div class="plant-6">
         <a class="plant-3" href="">Planet</a>
         <p class="plant-2">
-            Lorem ipsum dolor sit amet consect etur adi <br>
+            Lorem ipsum dolor sit amet consect<br> etur adi 
             pisicing elit sed do eiusmod
-             tempor incididunt. <br> Lorem ipsum
-              dolor sit amet consect etur.
+             <br>tempor incididunt.  Lorem ipsum
+              dolor <br> sit amet consect etur.
         </p>
         <h5 class="plant-2">5311 Ceaver Sidge Td. Pakland, DE 13507</h5>
         <h5 class="plant-2">info@gmail.com</h5>

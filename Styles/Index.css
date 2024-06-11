@@ -30,12 +30,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-color: #333;
-    height: 80px;
+    height: 70px;
     position: sticky;
     top: 0px;
     z-index: 1;
     padding-left: 122px;
-    gap: 25px;
+    gap: 15px;
 }
 
 .navbar-2 {
@@ -80,12 +80,17 @@ body {
 }
 
 .image-4 {
-    width: 330px;
+    width: 100%;
     height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: 0.3s;
+}
+
+.image-4:hover {
+    transform: scale(1.1);
 }
 
 .image-5 {
@@ -106,6 +111,7 @@ body {
     color: white;
     background-color: rgb(8, 0, 0); 
     border: 1px solid #ccc; 
+    width: 250px;
 }
 
 .submitbu-1 {
@@ -161,6 +167,9 @@ body {
     text-decoration: none;
     color: white;
     flex-wrap: wrap;
+    font-family: sans-serif;
+    font-weight: bold;
+    
 }
 
 .actionlink-1:hover{
@@ -174,6 +183,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     border: none;
+    border-radius: 10px;
 }
 
 .actionlink-2:hover{
@@ -262,17 +272,18 @@ body {
 .imagetext-1 {
     color: white;
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 .imagetext-2 {
-    padding: 15px;   
+    padding: 15px;
+    width: 300px;  
 }
-
 .imagetext-3 {
     color: red;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: large;
+    font-weight: bolder;
 }
 
 .more-1 {
@@ -284,13 +295,23 @@ body {
     border: none;
 }
 
+.more-1:hover {
+    background-color: white;
+}
+
+.more-2:hover {
+    color: red;
+}
+
 .more-2 {
     color: white;
     text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .more-3 {
-    padding-top: 45px;
+    padding-top: 35px;
 }
 
 .trending-1 {
@@ -302,7 +323,7 @@ body {
 }
 
 .navlink-1 {
-    padding: 15px; 
+    
 }
 
 .navlink-2 {
@@ -312,33 +333,40 @@ body {
     font-size: 14px;
     font-family: 'Franklin Gothic Medium',
      'Arial Narrow', Arial, sans-serif;
+     text-decoration: none;
 }
 
 .group-1 {
-    width: 18%;
-    margin: 30px; 
+    width: 17%;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    margin-right: 15px;
+ 
+    
 }
+
 
 .group-2 {
     display: flex;
-    margin-top: 0px;
-    flex-wrap: wrap;   
+    margin-top: 0px;  
+    flex-wrap: wrap;
 }
 
 .group-3 {
-    margin-left: 30px;
-    width: 290px;
-    padding-top: 50px;   
+    padding-top: 30px; 
+    margin-right: 15px;  
 }
+
 
 .choice-1 {
  margin: 15px;   
 }
 
 .choice-2 {           
-    width: 330px;
+    width: 340px;
     height: 240px;
 }
+
 
 .choice-3 {
     display: flex;
@@ -383,7 +411,12 @@ body {
     padding-left: 120px; 
 }
 .top-4 {
-    width: 75%;  
+    width: 75%;
+    transition: 0.3s;  
+}
+
+.top-4:hover {
+    transform: scale(1.1);
 }
 
 .top-5 {
@@ -457,11 +490,11 @@ body {
 }
 
 .yes-2 {
-    padding-right: 158px;
+    padding-right: 128px;
 }
 
 .yes-3 {
-    padding-right: 150px;
+    padding-right: 120px;
 }
 
 
@@ -476,14 +509,14 @@ body {
 
 .plant-2 { 
     color: white;
-    font-family: sans-serif;
-    
+    font-family: sans-serif; 
 }
 
 .plant-3 {
     font-family: sans-serif;
     color: red;
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -495,6 +528,11 @@ body {
    width: 90px;
    margin-right: 5px;
    margin-bottom: 5px;
+   transition: 0.3s;
+}
+
+.plant-5:hover {
+    transform: scale(1.1);
 }
 
 .plant-6 {

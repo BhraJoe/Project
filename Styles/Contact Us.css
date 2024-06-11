@@ -21,13 +21,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-color: #333;
-    height: 80px;
-    flex-wrap: wrap;
+    height: 70px;
     position: sticky;
     top: 0px;
     z-index: 1;
     padding-left: 122px;
-    gap: 25px;
+    gap: 15px;
 }
 
 .navbar-2 {
@@ -91,6 +90,7 @@ body {
     color: white;
     background-color: rgb(8, 0, 0); 
     border: 1px solid #ccc; 
+    width: 250px;
 }
 
 .submitbu-1 {
@@ -109,7 +109,7 @@ body {
 
 .con-1 {
     display: flex;
-    padding-left: 70px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -125,11 +125,8 @@ body {
 
 .con-4 {
     display: flex;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-right: 45px;
     height: 150px;
-    background-color: #161616;
+    background-color: #302f2f;
 }
 
 .con-5 {
@@ -176,7 +173,7 @@ body {
     background-color: #333;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 73px;
+    justify-content: center;
 }
 
 
@@ -185,6 +182,7 @@ body {
 .form-1 {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .form-2 {
@@ -207,9 +205,11 @@ body {
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 845px;
+    width: 469px;
     height: 150px;
     border: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .form-6 {
@@ -250,6 +250,7 @@ body {
     font-family: sans-serif;
     color: red;
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -258,10 +259,15 @@ body {
 }
 
 .plant-5 {
-   width: 90px;
-   margin-right: 5px;
-   margin-bottom: 5px;
-}
+    width: 90px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+ }
+ 
+ .plant-5:hover {
+     transform: scale(1.1);
+ }
 
 .plant-6 {
     padding-top: 20px;

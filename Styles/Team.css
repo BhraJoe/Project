@@ -21,13 +21,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-color: #333;
-    height: 80px;
-    flex-wrap: wrap;
+    height: 70px;
     position: sticky;
     top: 0px;
     z-index: 1;
     padding-left: 122px;
-    gap: 25px;
+    gap: 15px;
 }
 
 .navbar-2 {
@@ -91,6 +90,7 @@ body {
     color: white;
     background-color: rgb(8, 0, 0); 
     border: 1px solid #ccc; 
+    width: 250px;
 }
 
 .submitbu-1 {
@@ -203,6 +203,7 @@ body {
     font-family: sans-serif;
     color: red;
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -214,6 +215,11 @@ body {
     width: 90px;
     margin-right: 5px;
     margin-bottom: 5px;
+    transition: 0.3s;
+ }
+ 
+ .plant-5:hover {
+     transform: scale(1.1);
  }
  
  .plant-6 {
