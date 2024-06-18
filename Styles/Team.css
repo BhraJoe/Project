@@ -25,7 +25,7 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
-    padding-left: 122px;
+    padding-left: 100px;
     gap: 15px;
 }
 
@@ -115,7 +115,7 @@ body {
 
 .backcol-1 {
     background-color: black;
-    padding-left: 110px;
+    padding-left: 90px;
     padding-top: 35px;   
 }
 
@@ -188,7 +188,7 @@ body {
     background-color: #333;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 130px;
+    padding-left: 105px;
     padding-top: 15px; 
       
 }
@@ -247,7 +247,7 @@ body {
 .design-2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 130px;  
+    padding-left: 100px;  
     align-items: center;
 }
 
@@ -276,6 +276,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 120px;
+    padding-left: 100px;
 }
           

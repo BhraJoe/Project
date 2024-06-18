@@ -1,12 +1,13 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 
 
 .backcol-1 {
     background-color: black;
-    padding-left: 110px;
+    padding-left: 90px;
     padding-top: 35px;   
 }
 
@@ -72,4 +73,166 @@ body {
 .image-5 {
     margin: 15px;
     background-color: rgb(39, 39, 38);
+}
+
+
+
+
+.head-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: rgb(190, 185, 176);
+    background-color: rgb(78, 76, 76);
+    align-items: center;
+}
+
+
+.navbar-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding-left: 100px;
+    gap: 15px;
+}
+
+.navbar-2 {
+    color: red;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.li-1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.li-1:hover {
+    color: red;
+}
+
+.image-1 {
+    display: flex;
+    align-items: center; 
+}
+
+.image-2 {
+    border-radius: 50px;          
+}
+
+
+.searchbar-1 {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc;  
+}
+
+.email-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc; 
+    width: 250px;
+}
+
+.submitbu-1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+
+}
+
+.submitbu-1:hover {
+    background-color: #3e8e41;
+}
+
+.planet-1 {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 15px;      
+}
+
+.plant-2 { 
+    color: white;
+    font-family: sans-serif;    
+}
+
+.plant-3 {
+    font-family: sans-serif;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.plant-4 {
+    color: red;
+}
+
+.plant-5 {
+    width: 90px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+ }
+ 
+ .plant-5:hover {
+     transform: scale(1.1);
+ }
+
+.plant-6 {
+    padding-top: 20px;
+    margin-right: 70px;
+}
+
+.plant-7 {
+    vertical-align: auto;    
+}
+
+.plant-8 {
+    width: auto; 
+    margin-right: 60px;
+     
+}
+
+.design-1 {
+    color: white;
+    padding-right: 150px;
+    font-family: sans-serif;
+}
+
+.design-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;  
+    align-items: center;
+}
+
+.li-2 {
+    color: white;
+    text-decoration: none;
+    margin: 5px;    
 }

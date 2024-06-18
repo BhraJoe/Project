@@ -26,7 +26,7 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
-    padding-left: 122px;
+    padding-left: 100px;
     gap: 15px;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 .backcol-1 {
     background-color: black;
-    padding-left: 110px;
+    padding-left: 90px;
     padding-top: 35px;   
 }
 
@@ -192,7 +192,7 @@ body {
 }
 
 .backcol-3 {
-   padding-right: 137px;  
+   padding-right: 155px;  
 }
 
 .backcol-4 {
@@ -288,7 +288,7 @@ body {
     background-color: #333;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 130px;
+    padding-left: 90px;
     padding-top: 15px;      
 }
 
@@ -345,7 +345,7 @@ body {
 .design-2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 130px;  
+    padding-left: 100px;  
     align-items: center;
 }
 

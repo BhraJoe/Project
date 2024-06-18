@@ -72,3 +72,139 @@ body {
     margin: 15px;
     background-color: rgb(39, 39, 38);
 }
+
+
+.about-2 {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 0px;
+    text-decoration: none;
+}
+.about-3 {
+    border: 1px none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.about-3:hover {
+    background-color: white;
+}
+
+.about-2:hover {
+    color: red;
+}
+
+.head-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: rgb(190, 185, 176);
+    background-color: rgb(78, 76, 76);
+    align-items: center;
+}
+
+.head-2 {
+    padding-left: 100px;             
+}
+
+.navbar-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding-left: 100px;
+    gap: 15px;
+}
+
+.navbar-2 {
+    color: red;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.li-1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.li-1:hover {
+    color: red;
+}
+
+.image-1 {
+    display: flex;
+    align-items: center; 
+}
+
+.image-2 {
+    border-radius: 50px;          
+}
+
+.image-3 {
+    display: flex;
+    width: 100%;   
+}
+
+.image-4 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-5 {
+    margin: 15px;
+    background-color: rgb(39, 39, 38);
+}
+
+.searchbar-1 {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc;  
+}
+
+.email-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 0, 0); 
+    border: 1px solid #ccc; 
+    width: 250px;
+}
+
+.submitbu-1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+
+}
+
+.submitbu-1:hover {
+    background-color: #3e8e41;
+}
