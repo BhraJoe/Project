@@ -16,7 +16,7 @@ just.onclick = ()=> {
 }
 
 popular.onclick = ()=> {
-    document.getElementById("just_tab").style.display = "block";
+    document.getElementById("just_tab").style.display = "none";
     document.getElementById("popular_tab").style.display = "block";
     document.getElementById("tv_tab").style.display = "none";
     document.getElementById("free_tab").style.display = "none"; 
