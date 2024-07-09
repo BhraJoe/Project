@@ -362,7 +362,8 @@ body {
 
 .group-3 {
     padding-top: 30px; 
-    margin-right: 15px;  
+    margin-right: 15px; 
+    width: 350px; 
 }
 .group-4 {
     display: flex;
@@ -571,5 +572,8 @@ body {
     padding-top: 15px;
 }
 
+.imageA {
+    width: 200px;
+}
 
-@media
+
