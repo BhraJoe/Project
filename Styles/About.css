@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    margin: 0;
-    
+    font-family: sans-serif;
+    margin: 0;            
 }
 
 .head-1 {
@@ -105,12 +105,12 @@ body {
     border: none;
     cursor: pointer;
     color: #fff;
-    background-color: #4caf50;
+    background-color: red;
 
 }
 
 .submitbu-1:hover {
-    background-color: #3e8e41;
+    background-color: rgb(250, 66, 66);
 }
 
 .about-1 {

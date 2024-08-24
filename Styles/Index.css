@@ -1,7 +1,10 @@
 body {
     background-color: black;
+    font-family: sans-serif;
     margin: 0;            
 }
+
+
 .head-1 {
     display: flex;
     justify-content: space-around;
@@ -125,11 +128,11 @@ body {
     border: none;
     cursor: pointer;
     color: #fff;
-    background-color: #4caf50;
+    background-color: red;
 }
 
 .submitbu-1:hover {
-    background-color: #3e8e41;
+    background-color: rgb(250, 66, 66);
 }
 
 .backimage-1 {
@@ -147,9 +150,6 @@ body {
     font-family: sans-serif;   
 }
 
-.backimage-3 {
-    height: 800px;
-}
 
 .star-1 {
     color: red;
