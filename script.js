@@ -1,53 +1,46 @@
-let just  = document.getElementById("just_tab")
-let popular  = document.getElementById("popular_tab")
-let tv  = document.getElementById("tv_tab")
-let free  = document.getElementById("free_tab")
+const tabButtons = document.querySelectorAll('.tab-btn');
+const tabContents = ['just', 'popular', 'tv', 'free'];
 
-document.getElementById("just").style.display = "block";
-document.getElementById("popular").style.display = "none";
-document.getElementById("tv").style.display = "none";
-document.getElementById("free").style.display = "none";
+function switchTab(selectedId) {
+    // Toggle contents
+    tabContents.forEach(id => {
+        document.getElementById(id).style.display = (id === selectedId) ? 'grid' : 'none';
+    });
 
-just.onclick = ()=> {
-    document.getElementById("just").style.display = "block";
-    document.getElementById("popular").style.display = "none";
-    document.getElementById("tv").style.display = "none";
-    document.getElementById("free").style.display = "none"; 
-    just.style.borderBottom = "1px solid red"
-    popular.style.borderBottom = "white"
-    tv.style.borderBottom = "white"
-    free.style.borderBottom = "white"
+    // Toggle button active state
+    tabButtons.forEach(btn => {
+        if (btn.id === selectedId + '_tab') {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
 }
 
-popular.onclick = ()=> {
-    document.getElementById("just").style.display = "none";
-    document.getElementById("popular").style.display = "block";
-    document.getElementById("tv").style.display = "none";
-    document.getElementById("free").style.display = "none"; 
-    just.style.borderBottom = "white"
-    popular.style.borderBottom = "1px solid red"
-    tv.style.borderBottom = "white"
-    free.style.borderBottom = "white"
-}
+tabButtons.forEach(btn => {
+    btn.onclick = () => {
+        const id = btn.id.replace('_tab', '');
+        switchTab(id);
+    };
+});
 
-tv.onclick = ()=> {
-    document.getElementById("just").style.display = "none";
-    document.getElementById("popular").style.display = "none";
-    document.getElementById("tv").style.display = "block";
-    document.getElementById("free").style.display = "none"; 
-    just.style.borderBottom = "white"
-    popular.style.borderBottom = "white"
-    tv.style.borderBottom = "1px solid red"
-    free.style.borderBottom = "white"
-}
+// Initialize
+switchTab('just');
 
-free.onclick = ()=> {
-    document.getElementById("just").style.display = "none";
-    document.getElementById("popular").style.display = "none";
-    document.getElementById("tv").style.display = "none";
-    document.getElementById("free").style.display = "block"; 
-    just.style.borderBottom = "white"
-    popular.style.borderBottom = "white"
-    tv.style.borderBottom = "white"
-    free.style.borderBottom = "1px solid red"
+// Mobile Menu Toggle
+const mobileToggle = document.querySelector('.mobile-toggle');
+const mainNav = document.querySelector('.main-nav');
+
+if (mobileToggle && mainNav) {
+    mobileToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('active');
+
+        // Toggle hamburger icon animation
+        const svg = mobileToggle.querySelector('svg');
+        if (mainNav.classList.contains('active')) {
+            svg.innerHTML = '<line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>';
+        } else {
+            svg.innerHTML = '<line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>';
+        }
+    });
 }

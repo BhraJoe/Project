@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap');
+
+:root {
+    /* Color Palette - Refined HSL for Harmony */
+    --primary: hsl(345, 75%, 50%);
+    --primary-glow: hsla(345, 75%, 50%, 0.4);
+    --primary-hover: hsl(345, 85%, 45%);
+    --bg-dark: hsl(0, 0%, 4%);
+    --bg-surface: hsl(0, 0%, 8%);
+    --bg-surface-light: hsl(0, 0%, 14%);
+    --text-main: hsl(0, 0%, 100%);
+    --text-muted: hsl(0, 0%, 65%);
+    --accent-blue: hsl(217, 91%, 60%);
+
+    /* Transitions - Modern Easing */
+    --transition-fast: 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    --transition-smooth: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+    /* Shadows & Glass v2 */
+    --glass-bg: hsla(0, 0%, 6%, 0.6);
+    --glass-border: hsla(0, 0%, 100%, 0.08);
+    --glass-inner-border: hsla(0, 0%, 100%, 0.12);
+    --shadow-premium: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 20px var(--primary-glow);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition-fast);
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    transition: var(--transition-smooth);
+}
+
+/* Cinematic Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--bg-surface-light), var(--glass-border));
+    border-radius: 20px;
+    border: 2px solid var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.glass-effect {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+}

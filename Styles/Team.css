@@ -1,282 +1,100 @@
-body {
-    margin: 0;
-    background-color: black;
-    font-family: sans-serif;
+/* Team Page Specific Styles */
+
+.team-hero {
+    padding: 120px 0 80px;
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.5) 0%, var(--bg-main) 100%), url('../Pictures/background-pattern.png');
+    text-align: center;
 }
 
-.head-1 {
+.team-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    margin: 1rem 0;
+    letter-spacing: -0.03em;
+}
+
+.team-title span {
+    color: var(--primary);
+}
+
+.team-lead {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Team Showcase Section */
+.team-showcase-section {
+    padding: 80px 0;
+}
+
+.team-showcase-section.alt-bg {
+    background: var(--bg-surface);
+}
+
+/* Asymmetric Card Adjustments for Profiles */
+.asym-card.featured img {
+    aspect-ratio: 4/5.5;
+    object-position: center top;
+}
+
+.asym-card:not(.featured) img {
+    aspect-ratio: 16/10;
+    object-position: center top;
+}
+
+.team-bio {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin: 1rem 0 1.5rem;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.team-role {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.team-socials {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: rgb(190, 185, 176);
-    background-color: rgb(78, 76, 76);
-    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
 }
 
-.head-2 {
-    padding-left: 100px;             
+.team-socials a {
+    opacity: 0.6;
+    transition: var(--transition-smooth);
 }
 
-.navbar-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #333;
-    height: 70px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    padding-left: 100px;
-    gap: 15px;
+.team-socials a:hover {
+    opacity: 1;
+    transform: translateY(-3px);
 }
 
-.navbar-2 {
-    color: red;
-    font-weight: bolder;
-    font-size: 17px;
-    font-family: 'Trebuchet MS', 
-    'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
-    flex-wrap: wrap;
+/* Hover effects for Team Cards */
+.asym-card:hover .asym-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
-.li-1 {
-    color: white;
-    font-weight: bolder;
-    font-size: 17px;
-    font-family: 'Trebuchet MS', 
-    'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
-    flex-wrap: wrap;
+.asym-card:hover .asym-title {
+    color: var(--primary);
 }
 
-.li-1:hover {
-    color: red;
-}
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .team-showcase-section {
+        padding: 60px 0;
+    }
 
-.image-1 {
-    display: flex;
-    align-items: center; 
+    .team-bio {
+        font-size: 0.9rem;
+    }
 }
-
-.image-2 {
-    border-radius: 50px;          
-}
-
-.link-1 {
-    padding-left: 300px;
-    padding-top: 23px;
-}
-
-.link-2 {
-    margin: 2px;
-}
-
-.link-3 {
-    padding-top: 15px;
-}
-
-.searchbar-1 {
-    width: 300px;
-    padding: 10px;
-    color: white;
-    background-color: rgb(8, 0, 0); 
-    border: 1px solid #ccc;          
-}
-
-.email-1 {
-    padding: 10px;
-    color: white;
-    background-color: rgb(8, 0, 0); 
-    border: 1px solid #ccc; 
-    width: 250px;
-}
-
-.submitbu-1 {
-    padding: 10px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    background-color: red;
-}
-
-.submitbu-1:hover {
-    background-color: rgb(250, 66, 66);
-}
-
-
-.about-4 {
-    padding-top: 10px;
-    padding-left: 780px;
-
-}
-
-.backcol-1 {
-    background-color: black;
-    padding-left: 90px;
-    padding-top: 35px;   
-}
-
-.backcol-2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.backcol-3 {
-    width: 4%;
-    margin: 15px;   
-}
-
-.backcol-4 {
-    color: white;
-    font-size: larger;
-    font-family: sans-serif;
-    color: red;
-}
-
-.choice-1 {
-    margin: 15px;     
-}
-    
-.choice-2 {           
-    width: 100%;
-    height: 100%;
-}
-    
-.choice-3 {
-    display: flex; 
-    flex-wrap: wrap;
-}
-    
-.choice-4 {
-    position: absolute;
-    padding-top: 100px;
-    padding-left: 15px;   
-}
-    
-.choice-5 {
-    color: white;
-    font-family: sans-serif;  
-}
-    
-.choice-6 {
-    color: red;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: large;
-    padding-top: 200px;
-}
-    
-.choice-5 {
-    margin: 0;
-}
-    
-.meet-1 {
-    color: white;
-    font-family: sans-serif;
-}
-    
-.meet-2 {
-    position: absolute;
-    padding-top: 50px;
-    padding-left: 15px;
-}
-
-.planet-1 {
-    background-color: #333;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 105px;
-    padding-top: 15px; 
-      
-}
-
-.plant-2 { 
-    color: white;
-    font-family: sans-serif;
-    
-}
-
-.plant-3 {
-    font-family: sans-serif;
-    color: red;
-    font-size: larger;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.plant-4 {
-    color: red;
-}
-
-.plant-5 {
-    width: 90px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    transition: 0.3s;
- }
- 
- .plant-5:hover {
-     transform: scale(1.1);
- }
- 
- .plant-6 {
-     padding-top: 20px;
-     margin-right: 70px;
- }
- 
- .plant-7 {
-     vertical-align: auto; 
-     
- }
- 
- .plant-8 {
-     width: auto; 
-     margin-right: 60px;
-      
- }
-        
- .design-1 {
-    color: white;
-    padding-right: 150px;
-    font-family: sans-serif;
-}
-
-.design-2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 100px;  
-    align-items: center;
-}
-
-.li-2 {
-    color: white;
-    text-decoration: none;
-    margin: 5px;    
-}
-                
-.link-1 {
-    padding-left: 300px;
-    padding-top: 23px;
-}
-
-.link-2 {
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-}
-                
-.link-3 {
-    padding-top: 15px;
-}
-
-.yes-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 100px;
-}
-          
